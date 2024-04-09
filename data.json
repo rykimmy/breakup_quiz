@@ -55,48 +55,56 @@
                     "text": "I need constant access to coffee",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "Novack",
-                        "Cafe Baker"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.2,
+                        "2FB": 0.8,
+                        "3FB": 0.1,
+                        "Cafe Baker": 1.5,
+                        "Novack": 1.5,
+                        "Stacks": 0.1
+                    }
                 },
                 {
                     "id": "q1-a2",
                     "text": "I bring my own coffee",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "FFB",
-                        "2FB",
-                        "3FB",
-                        "Stacks"
-                    ]
+                    "outcomes": {
+                        "FFB": 0.9,
+                        "2FB": 0.8,
+                        "3FB": 0.7,
+                        "Cafe Baker": 1.1,
+                        "Novack": 1.2,
+                        "Stacks": 0.7
+                    }
                 },
                 {
                     "id": "q1-a3",
                     "text": "I'm down to walk to get coffee",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "FFB",
-                        "2FB",
-                        "3FB",
-                        "Stacks"
-                    ]
+                    "outcomes": {
+                        "FFB": 0.8,
+                        "2FB": 1.0,
+                        "3FB": 1.2,
+                        "Cafe Baker": 0.2,
+                        "Novack": 0.2,
+                        "Stacks": 1.2
+                    }
                 },
                 {
                     "id": "q1-a4",
                     "text": "I don't need coffee",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "FFB",
-                        "2FB",
-                        "3FB",
-                        "Stacks",
-                        "Cafe Baker",
-                        "Novack"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.0,
+                        "2FB": 1.0,
+                        "3FB": 1.0,
+                        "Stacks": 1.0,
+                        "Cafe Baker": 1.0,
+                        "Novack": 1.0
+                    }
                 }
             ]
         },
@@ -111,46 +119,56 @@
                     "text": "I prefer to work alone",
                     "is_image": true,
                     "src": "./img/solo-study.jpeg",
-                    "outcomes": [
-                        "3FB",
-                        "Stacks"
-                    ]
+                    "outcomes": {
+                        "FFB": 0.7,
+                        "2FB": 0.6,
+                        "3FB": 1.2,
+                        "Cafe Baker": 0.65,
+                        "Novack": 0.65,
+                        "Stacks": 1.3
+                    }
                 },
                 {
                     "id": "q2-a2",
                     "text": "I can tolerate some people around me",
                     "is_image": true,
                     "src": "./img/study-friends.png",
-                    "outcomes": [
-                        "Cafe Baker",
-                        "FFB",
-                        "2FB"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.4,
+                        "2FB": 1.35,
+                        "3FB": 0.8,
+                        "Cafe Baker": 1.1,
+                        "Novack": 1.2,
+                        "Stacks": 0.6
+                    }
                 },
                 {
                     "id": "q2-a3",
                     "text": "I like working in populated areas",
                     "is_image": true,
                     "src": "./img/study-packed.png",
-                    "outcomes": [
-                        "Novack",
-                        "FFB",
-                        "2FB"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.3,
+                        "2FB": 1.2,
+                        "3FB": 1.0,
+                        "Cafe Baker": 0.9,
+                        "Novack": 1.2,
+                        "Stacks": 0.6
+                    }
                 },
                 {
                     "id": "q2-a4",
                     "text": "It doesn't matter, I can lock in regardless",
                     "is_image": true,
                     "src": "./img/shrug.png",
-                    "outcomes": [
-                        "FFB",
-                        "2FB",
-                        "3FB",
-                        "Stacks",
-                        "Novack",
-                        "Cafe Baker"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.0,
+                        "2FB": 1.0,
+                        "3FB": 1.0,
+                        "Cafe Baker": 1.0,
+                        "Novack": 1.0,
+                        "Stacks": 1.0
+                    }
                 }
             ]
         },
@@ -165,46 +183,56 @@
                     "text": "I like it loud and buzzing around me",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "FFB",
-                        "2FB",
-                        "Novack"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.3,
+                        "2FB": 1.3,
+                        "3FB": 0.5,
+                        "Cafe Baker": 0.8,
+                        "Novack": 1.4,
+                        "Stacks": 0.5
+                    }
                 },
                 {
                     "id": "q3-a2",
                     "text": "I like some background noise",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "Cafe Baker",
-                        "FFB",
-                        "2FB"
-                    ]
+                    "outcomes": {
+                        "FFB": 0.9,
+                        "2FB": 0.9,
+                        "3FB": 0.3,
+                        "Cafe Baker": 1.1,
+                        "Novack": 1.0,
+                        "Stacks": 0.2
+                    }
                 },
                 {
                     "id": "q3-a3",
                     "text": "I need it silent",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "3FB",
-                        "Stacks"
-                    ]
+                    "outcomes": {
+                        "FFB": 0.3,
+                        "2FB": 0.3,
+                        "3FB": 1.3,
+                        "Cafe Baker": 0.7,
+                        "Novack": 0.5,
+                        "Stacks": 1.4
+                    }
                 },
                 {
                     "id": "q3-a4",
                     "text": "I don't care, I can lock in regardless",
                     "is_image": false,
                     "src": "",
-                    "outcomes": [
-                        "FFB",
-                        "2FB",
-                        "3FB",
-                        "Stacks",
-                        "Novack",
-                        "Cafe Baker"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.0,
+                        "2FB": 1.0,
+                        "3FB": 1.0,
+                        "Cafe Baker": 1.0,
+                        "Novack": 1.0,
+                        "Stacks": 1.0
+                    }
                 }
             ]
         },
@@ -219,43 +247,56 @@
                     "text": "Cubicle",
                     "is_image": true,
                     "src": "./img/cubicle.png",
-                    "outcomes": [
-                        "3FB",
-                        "Stacks",
-                        "FFB",
-                        "Novack"
-                    ]
+                    "outcomes": {
+                        "FFB": 0.9,
+                        "2FB": 0.4,
+                        "3FB": 1.1,
+                        "Cafe Baker": 0.8,
+                        "Novack": 0.8,
+                        "Stacks": 1.4
+                    }
                 },
                 {
                     "id": "q4-a2",
                     "text": "Cafe",
                     "is_image": true,
                     "src": "./img/cafe.avif",
-                    "outcomes": [
-                        "Cafe Baker",
-                        "Novack"
-                    ]
+                    "outcomes": {
+                        "FFB": 0.2,
+                        "2FB": 0.2,
+                        "3FB": 0.2,
+                        "Cafe Baker": 1.4,
+                        "Novack": 1.3,
+                        "Stacks": 0.1
+                    }
                 },
                 {
                     "id": "q4-a3",
                     "text": "Library",
                     "is_image": true,
                     "src": "./img/library.jpg",
-                    "outcomes": [
-                        "FFB",
-                        "3FB",
-                        "Stacks"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.2,
+                        "2FB": 0.9,
+                        "3FB": 1.4,
+                        "Cafe Baker": 0.2,
+                        "Novack": 0.2,
+                        "Stacks": 1.1
+                    }
                 },
                 {
                     "id": "q4-a4",
                     "text": "Monitor",
                     "is_image": true,
                     "src": "./img/monitor.webp",
-                    "outcomes": [
-                        "FFB",
-                        "2FB"
-                    ]
+                    "outcomes": {
+                        "FFB": 1.1,
+                        "2FB": 1.3,
+                        "3FB": 0.4,
+                        "Cafe Baker": 0.2,
+                        "Novack": 0.1,
+                        "Stacks": 1.1
+                    }
                 }
             ]
         }

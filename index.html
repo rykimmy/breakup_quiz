@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ryan's Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Find Your Study Spot In Baker-Berry Library</h1>
+  </header>
+
+  <!-- FOR OUTCOME -->
+  <div class="outcome-container">
+    <h2 class="outcome-title">Your Study Spot:</h2>
+    <div class="outcome-content-container">
+      <h3 class="outcome-content-title">Novack</h3>
+      <p class="outcome-content-description">The best study spot for you is Novack. Not only do you have immediate access to food and drinks, but you are also provided with a vibrant cafe environment as well as isolated study rooms depending on how you're feeling.</p>
+      <img class="outcome-img" src="./img/cafebaker.jpg" />
+    </div>
+    <button class="outcome-button">Play Again</button>
+  </div>
+
+  <!-- FOR IMG -->
+  <div id="q1" class="question-container">
+    <h2 class="question-title">How's your relationship with coffee?</h2>
+
+    <div id="a1" class="answers-container">
+      <label class="answer-label">
+        <img class="answer-img" src="./img/cubicle.png" />
+        <input class="answer-input" type="radio" name="coffee" value="need coffee" />
+      </label>
+      <label class="answer-label">
+        <img class="answer-img" src="./img/cafe.avif" />
+        <input class="answer-input" type="radio" name="coffee" value="self coffee" />
+      </label>
+      <label class="answer-label">
+        <img class="answer-img" src="./img/library.jpg" />
+        <input class="answer-input" type="radio" name="coffee" value="walk coffee" />
+      </label>
+      <label class="answer-label">
+        <img class="answer-img" src="./img/monitor.webp" />
+        <input class="answer-input" type="radio" name="coffee" value="no coffee" />
+      </label>
+    </div>
+  </div>
+
+  <!-- FOR TEXT -->
+  <div id="q1" class="question-container">
+    <h2 class="question-title">How's your relationship with coffee?</h2>
+
+    <div id="a1" class="answers-container">
+      <label class="answer-label">
+        <h3 class="answer-text">Need constant access to coffee</h3>
+        <input class="answer-input" type="radio" name="coffee" value="need coffee" />
+      </label>
+      <label class="answer-label">
+        <h3 class="answer-text">I bring my own coffee</h3>
+        <input class="answer-input" type="radio" name="coffee" value="self coffee" />
+      </label>
+      <label class="answer-label">
+        <h3 class="answer-text">I'm down to walk to get coffee</h3>
+        <input class="answer-input" type="radio" name="coffee" value="walk coffee" />
+      </label>
+      <label class="answer-label">
+        <h3 class="answer-text">I don't need coffee</h3>
+        <input class="answer-input" type="radio" name="coffee" value="no coffee" />
+      </label>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+  <!-- ANS: The js file is linked at the bottom in order to ensure that all the HTML is processed first as the code is read top down. This helps avoid issues of rendering. -->
+</body>
+
+</html>

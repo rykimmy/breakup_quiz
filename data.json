@@ -1,0 +1,263 @@
+{
+    "outcomes": {
+        "FFB": {
+            "name": "FFB",
+            "description": "The best study spot for you is FFB, a lively environment buzzing with activity yet still conducive towards work through its numerous study rooms. In addition, you have easy access to both Cafe Baker and Novack Cafe whenever you need.",
+            "src": "./img/ffb.jpg",
+            "background_color": "rgb(194, 149, 149)",
+            "button_color": "rgb(144, 51, 51)"
+        },
+        "2FB": {
+            "name": "2FB",
+            "description": "The best study spot for you is 2FB. Hosting numerous distinct work spaces, 2FB offers an array of environments alongside its spread of technological resources available to anyone.",
+            "src": "./img/2fb.jpg",
+            "background_color": "rgb(200, 200, 200)",
+            "button_color": "rgb(96, 96, 96)"
+        },
+        "3FB": {
+            "name": "3FB",
+            "description": "The best study spot for you is 3FB. Comfortable seating areas, various working spots, and a serene quietness, 3FB offers one of the best locations to truly get productive.",
+            "src": "./img/3fb.jpg",
+            "background_color": "rgb(102, 134, 109)",
+            "button_color": "rgb(32, 93, 31)"
+        },
+        "Stacks": {
+            "name": "Stacks",
+            "description": "The best study spot for you is the stacks. With levels upon levels, the stacks provides you with the right quiet, isolated environment to stay focused. Not only do you get access to desktop monitors on all floors, but you also have private cubicles at your disposal.",
+            "src": "./img/stacks.jpg",
+            "background_color": "rgb(89, 99, 142)",
+            "button_color": "rgb(19, 28, 69)"
+        },
+        "Cafe Baker": {
+            "name": "Cafe Baker",
+            "description": "The best study spot for you is Cafe Baker. Imbued with a pleasant cafe dynamic, this space provides a cozy and comfortable environment with your choice of food or drink readily accessible whenever you need it.",
+            "src": "./img/cafebaker.jpg",
+            "background_color": "rgb(173, 139, 98)",
+            "button_color": "rgb(113, 52, 30)"
+        },
+        "Novack": {
+            "name": "Novack",
+            "description": "The best study spot for you is Novack. Not only do you have immediate access to food and drinks, but you are also provided with a vibrant cafe environment as well as isolated study rooms depending on how you're feeling.",
+            "src": "./img/novack.jpeg",
+            "background_color": "rgb(177, 202, 240)",
+            "button_color": "rgb(52, 103, 123)"
+        }
+    },
+    "questions": [
+        {
+            "id": "q1",
+            "name": "coffee",
+            "question_text": "How's your relationship with coffee?",
+            "question_img_url": "",
+            "answers": [
+                {
+                    "id": "q1-a1",
+                    "text": "I need constant access to coffee",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "Novack",
+                        "Cafe Baker"
+                    ]
+                },
+                {
+                    "id": "q1-a2",
+                    "text": "I bring my own coffee",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "FFB",
+                        "2FB",
+                        "3FB",
+                        "Stacks"
+                    ]
+                },
+                {
+                    "id": "q1-a3",
+                    "text": "I'm down to walk to get coffee",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "FFB",
+                        "2FB",
+                        "3FB",
+                        "Stacks"
+                    ]
+                },
+                {
+                    "id": "q1-a4",
+                    "text": "I don't need coffee",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "FFB",
+                        "2FB",
+                        "3FB",
+                        "Stacks",
+                        "Cafe Baker",
+                        "Novack"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "q2",
+            "name": "people",
+            "question_text": "Choose the environment that best suits your work style",
+            "question_img_url": "",
+            "answers": [
+                {
+                    "id": "q2-a1",
+                    "text": "I prefer to work alone",
+                    "is_image": true,
+                    "src": "./img/solo-study.jpeg",
+                    "outcomes": [
+                        "3FB",
+                        "Stacks"
+                    ]
+                },
+                {
+                    "id": "q2-a2",
+                    "text": "I can tolerate some people around me",
+                    "is_image": true,
+                    "src": "./img/study-friends.png",
+                    "outcomes": [
+                        "Cafe Baker",
+                        "FFB",
+                        "2FB"
+                    ]
+                },
+                {
+                    "id": "q2-a3",
+                    "text": "I like working in populated areas",
+                    "is_image": true,
+                    "src": "./img/study-packed.png",
+                    "outcomes": [
+                        "Novack",
+                        "FFB",
+                        "2FB"
+                    ]
+                },
+                {
+                    "id": "q2-a4",
+                    "text": "It doesn't matter, I can lock in regardless",
+                    "is_image": true,
+                    "src": "./img/shrug.png",
+                    "outcomes": [
+                        "FFB",
+                        "2FB",
+                        "3FB",
+                        "Stacks",
+                        "Novack",
+                        "Cafe Baker"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "q3",
+            "name": "noise",
+            "question_text": "How do you handle noise while working?",
+            "question_img_url": "",
+            "answers": [
+                {
+                    "id": "q3-a1",
+                    "text": "I like it loud and buzzing around me",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "FFB",
+                        "2FB",
+                        "Novack"
+                    ]
+                },
+                {
+                    "id": "q3-a2",
+                    "text": "I like some background noise",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "Cafe Baker",
+                        "FFB",
+                        "2FB"
+                    ]
+                },
+                {
+                    "id": "q3-a3",
+                    "text": "I need it silent",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "3FB",
+                        "Stacks"
+                    ]
+                },
+                {
+                    "id": "q3-a4",
+                    "text": "I don't care, I can lock in regardless",
+                    "is_image": false,
+                    "src": "",
+                    "outcomes": [
+                        "FFB",
+                        "2FB",
+                        "3FB",
+                        "Stacks",
+                        "Novack",
+                        "Cafe Baker"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "q4",
+            "name": "environment",
+            "question_text": "Choose the environment that best suits your work style",
+            "question_img_url": "",
+            "answers": [
+                {
+                    "id": "q4-a1",
+                    "text": "Cubicle",
+                    "is_image": true,
+                    "src": "./img/cubicle.png",
+                    "outcomes": [
+                        "3FB",
+                        "Stacks",
+                        "FFB",
+                        "Novack"
+                    ]
+                },
+                {
+                    "id": "q4-a2",
+                    "text": "Cafe",
+                    "is_image": true,
+                    "src": "./img/cafe.avif",
+                    "outcomes": [
+                        "Cafe Baker",
+                        "Novack"
+                    ]
+                },
+                {
+                    "id": "q4-a3",
+                    "text": "Library",
+                    "is_image": true,
+                    "src": "./img/library.jpg",
+                    "outcomes": [
+                        "FFB",
+                        "3FB",
+                        "Stacks"
+                    ]
+                },
+                {
+                    "id": "q4-a4",
+                    "text": "Monitor",
+                    "is_image": true,
+                    "src": "./img/monitor.webp",
+                    "outcomes": [
+                        "FFB",
+                        "2FB"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -4,29 +4,29 @@
             "name": "Ghosting",
             "description": "The most severe of our synthesized breakup outcomes, ghosting is an implicit or non-confrontational approach to breaking up with someone. This method typically entails complete ignorance of the ex-partner and represents an intential cutting of ties with someone, often through removing social connections and physical avoidance. Common reasons or relationship factors that lead to the ghosting option include a lack of depth in the relationship or explicit harm by the partner.",
             "src": "",
-            "background_color": "rgb(102, 102, 102)",
-            "button_color": "rgb(144, 51, 51)"
+            "background_color": "rgb(176, 176, 176)",
+            "button_color": "rgb(84, 84, 84)"
         },
         "Distancing": {
             "name": "Distancing",
             "description": "The second implicit or non-confrontational outcome, distancing is the less severe option to ghosting. While similar in typically not initializing communication or attempting to further the relationship, distancing presents a more subtle option that is widely recognized as being the 'polite' or 'considerate' path to ending a more casual relationship. It often leverages social cues such as reduced communication, less engagement, or diminished passion to implicitly hint towards a lack of interest. More broadly, it can be described as an intentional diminishing of the relationship. Distancing is a common option when the relationship exceeds an ambiguous threshold surpassing ghosting territory but still remains within the broader area of ambiguity––often, this means the relationship has not yet reached a deeper level of emotional connection or passion.",
             "src": "",
-            "background_color": "rgb(66, 85, 255)",
-            "button_color": "rgb(144, 51, 51)"
+            "background_color": "rgb(148, 87, 201)",
+            "button_color": "rgb(102, 0, 189)"
         },
         "Superficial Communication": {
             "name": "Superficial Direct Communication",
-            "description": "The lesser form of our explicit or confrontational breakup outcomes, superficial communication entails explicitly breaking up with someone, often via text. While it includes the official act of  ending a relationship (often perceived as morally good), the underlying intentions are **guided primarily by the desire to end the relationship**. Thus, this method typically lacks emotional depth or genuinity and instead encompasses going through the motions for the purpose of ending the relationship. There is often less empathy or consideration for the partner, as the priority is to the self in ending or leaving the relationship. Superficial communication can be characterized by Agnes Callard's foundational breakup story in her article \"Breaking Points\" in which the decision to end the relationship is communicated, but the room for mutual discussion, further conversation, and continued care, is stripped away. This is a common option for relationships that have been officially established or surpassed a superficial level but not yet reached a level of depth to incite additional steps or effort in the breakup. Separately, deeper or more significant relationships might also end via this method in cases where the reasons for breaking up are more extreme: foundational lies, cheating, abuse, etc.",
+            "description": "The lesser form of our explicit or confrontational breakup outcomes, superficial communication entails explicitly breaking up with someone, often via text. While it includes the official act of  ending a relationship (often perceived as morally good), the underlying intentions are guided primarily by the desire to end the relationship. Thus, this method typically lacks emotional depth or genuinity and instead encompasses going through the motions for the purpose of ending the relationship. There is often less empathy or consideration for the partner, as the priority is to the self in ending or leaving the relationship. Superficial communication can be characterized by Agnes Callard's foundational breakup story in her article \"Breaking Points\" in which the decision to end the relationship is communicated, but the room for mutual discussion, further conversation, and continued care, is stripped away. This is a common option for relationships that have been officially established or surpassed a superficial level but not yet reached a level of depth to incite additional steps or effort in the breakup. Separately, deeper or more significant relationships might also end via this method in cases where the reasons for breaking up are more extreme: foundational lies, cheating, abuse, etc.",
             "src": "./img/texting.jpg",
-            "background_color": "rgb(217, 186, 48)",
-            "button_color": "rgb(237, 12, 12)"
+            "background_color": "rgb(237, 197, 100)",
+            "button_color": "rgb(189, 134, 2)"
         },
         "Invested Communication": {
             "name": "Invested Direct Communication",
             "description": "The highest of not only the explicit, confrontational outcomes, but of all breakup methods, invested communication entails explicitly breaking up with someone in a moral fashion. Grounded in genuine empathy and care for the partner as well as the passion and connection of the relationship, this method extends beyond solely seeking to end the relationship and includes the desire to do so in manner that equally considers the breakup for oneself as well as their partner. Invested communication typically involves: intentional and genuine discussion, mutual agreement, openness to future conversation, and post-breakup mutual respect (staying amicable, no spiteful behavior, refraining from pursuing friends or affiliates of ex-partner, etc). Often recognized as the most ethical approach to breaking up with someone, this method is commonly used in relationships of greater depth or significance. Explicit labeling/officiality, significant emotional depth, or extended duration of the relationship are common factors that incite this method. While invested communication sits at the top of our breakup outcomes, its limited use-case underscores the complex social dynamics that co-exist in the intricate navigation of breaking up with someone. Reasons for not pursuing this approach at lesser, more supericial relationship levels draw on social dynamics or perceptions that may consider this approach as doing \"too much\"––being overbearing and acting in a manner that is disproportional to the significance of the relationship.",
             "src": "./img/talking.png",
-            "background_color": "rgb(224, 56, 56)",
-            "button_color": "rgb(144, 51, 51)"
+            "background_color": "rgb(227, 97, 97)",
+            "button_color": "rgb(222, 0, 0)"
         }
     },
     "questions": [

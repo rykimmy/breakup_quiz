@@ -75,7 +75,7 @@ function renderLandingPage() {
 
 // Function to initialize the quiz
 function initQuiz() {
-  fetch('temp_data.json')
+  fetch('data.json')
     .then(response => response.json())
     .then(data => {
       // Define data variables
